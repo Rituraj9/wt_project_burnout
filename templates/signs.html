@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--Code by Divinector (www.divinectorweb.com)-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Employee Burnout Prediction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/sign.css">    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet"> 
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="{{url_for('home')}}"> BURNOUT</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="{{url_for('signs')}}">Signs</a></li>
+                        <li><a href="{{url_for('about_page')}}">About</a></li>
+                        <li><a href="{{url_for('employee_info')}}">Check Employee Burnout</a></li>
+                        <li><a href="{{url_for('prevent')}}">Prevention</a></li>
+                        <li><a href="{{url_for('developers')}}">Developers</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+<br>
+<br>
+<div class="container">
+<h1 class="animated bounceInRight">Signs of Burnout</h1>
+               <div class="cc">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="static/images/HSG-Eye-Strain-1024x683.jpeg">
+                    </div>
+                    <h2><italic>Exhaustion is Obvious</italic></h2>
+                    <div class="content">
+                        <p>It is completely normal for anyone to feel tired from time to time, but if feelings of fatigue that is obvious continue on, this means something more is on the stove.Keep in mind that the exhaustion would not only be physical where you find your worker sleeping on their desk. Instead, it will be emotional as well. You would be able to see it in their entire demeanor. The headaches, body aches will be more frequent, and the breaks they take from work will be extended and out of the ordinary. Dark circles under eyes, loss of weight, worn out expressions and ill appearance are also signs of burnout.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="static/images/Optimized-Anxious-lady-grabbing-head.jpg">
+                    </div>
+                    <h2><italic>Apparent Mood Issues</italic></h2>
+                    <div class="content">
+                        <p>Moodiness, irritability or a generally negative attitude at work is a dead giveaway of burnout of an employee. If you feel that a happy go lucky employee has suddenly become quiet and is avoiding everyone, you need to find out the root cause of the problem. Remember, Low morale clearly indicates a burnout episode, and this has to be taken into consideration.</p>
+                    </div>
+                </div>
+                <div class="card">
+                   <div class="imgBx">
+                        <img src="static/images/driver-fatigue-1.jpg">
+                    </div>
+                    <h2><italic>Accidents and Missing Days</italic></h2>
+                    <div class="content">
+                        <p>Has your regular employee suddenly started taking too many ‘off days,’ sick days or days where they got into some kind of “accident”? A classic example of a burnout employee is when they become absent in action. By not being at work, workers don’t have to deal with the stress or routine of their work life. Since they are not sure about what to do, escape is the only option available.
+
+                            Keep in mind that not all employees take a leave as an excuse for sickness, but they might actually be sick. Frequent colds or fever along with headaches and body aches are classic signs that a person is under stress. If your employee is getting ill too often, you need to be concerned.</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card">
+                   <div class="imgBx">
+                        <img src="static/images/fatigue.jpg">
+                    </div>
+                    <h2><italic>Lower Levels of Engagement</italic></h2>
+                    <div class="content">
+                        <p>When an employee stops taking an interest in their work or does not pay attention like they used to, it is a sign of a burnout employee. Unenthusiastic behavior is pretty obvious, and it will stand out like a sore thumb in someone who previously was an active worker. Observe and notice these difference when you see them and pay attention.</p>
+                      </div>
+                </div>
+                <div class="card">
+                   <div class="imgBx">
+                        <img src="static/images/x.jpg">
+                    </div>
+                    <h2><italic>Unfinished Tasks and Assignments</italic></h2>
+                    <div class="content">
+                        <p>Is your employee leaving for home without finishing their assigned tasks for the day? Are the projects getting delayed and deadlines missing too much? Pay heed, not all is well. Too many mistakes are also signs of burnout or something troublesome. Take a look at their workload because the possibility is that they have too much on their plates.</p>
+                     </div>
+                </div>
+          </div>
+         <p class="slogan">&copyErrorCode~All Rights Reserved</p>
+        </div>
+          <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
+

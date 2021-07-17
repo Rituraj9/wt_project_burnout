@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--Code by Divinector (www.divinectorweb.com)-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Employee Burnout Prediction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/prevent.css"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">  
+
+</head>
+<body>
+        <header>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="{{url_for('home')}}"> BURNOUT</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="{{url_for('signs')}}">Signs</a></li>
+                        <li><a href="{{url_for('about_page')}}">About</a></li>
+                        <li><a href="{{url_for('employee_info')}}">Check Employee Burnout</a></li>
+                        <li><a href="{{url_for('prevent')}}">Prevention</a></li>
+                        <li><a href="{{url_for('developers')}}">Developers</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+        <br>
+            <div class='container'>             
+            <hr>
+            <h1>Prevent Employee Burnout</h1>
+            <hr>
+            <div data-aos="fade-in" data-aos-duration=1000>
+            <div class="jumbotron" id="three">
+                <h1 class="display-4">Encourage a healthy work-life balance</h1>
+                <p class="lead"> Burnout is often a result of overwork—so, if you want to help your employees avoid burnout, make a healthy work-life balance a part of your workplace culture. Make sure your employees have manageable work hours.</p>
+            </div>
+            <div class="jumbotron" id="three">
+                <h1 class="display-4">Take tasks off your team’s plate</h1>
+                <p class="lead">Make sure you’re allocating tasks and responsibilities in a way that doesn’t overwhelm any single employee—and if you notice an employee has too much on their plate, do what you can to give them some breathing room and assign some of their tasks to other team members.</p>
+            </div>
+            <div class="jumbotron" id="three">
+                <h1 class="display-4">Offer competitive compensation and benefits</h1>
+                <p class="lead">employees are more at risk for burnout when they feel like they’re working hard—but aren’t being compensated fairly for that work. If you want to keep employee burnout at bay, make sure you’re offering competitive compensation and benefits packages.</p>
+            </div>
+            <div class="jumbotron" id="three">
+                <h1 class="display-4">Schedule regular check-ins</h1>
+                <p class="lead">Schedule regular check-ins with your employees to see how they’re doing—and if, during that meeting, you get the sense that they’re stressed or overwhelmed, take steps to protect them from burnout.</p>
+            </div>
+            <div class="jumbotron" id="three">
+                <h1 class="display-4">Launch a wellness initiative</h1>
+                <p class="lead">If your employees can better handle stress, they may be able to better avoid burnout.</p>
+            </div>
+            <div class="jumbotron" id="three">                
+                <h1 class="display-4">Intervene before burnout happens</h1>
+                <p class="lead">Once an employee is at the burnout or chronic burnout stage, it can be hard to get them re-engaged. Keep your eyes out for the signs of burnout—and intervene when you sense an employee is feeling stressed or overwhelmed.</p>
+            </div>
+        </div>
+            <p class="slogan">&copyErrorCode~All Rights Reserved</p> 
+        </div>
+        <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    </body>
+</html>
